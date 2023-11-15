@@ -23,6 +23,9 @@ function App() {
               <p>@tasmetime</p>
             </div>
             <div className="buttons">
+              <button>
+                <img src="" alt="" />
+              </button>
               <button>follow</button>
             </div>
           </div>
