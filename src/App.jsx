@@ -17,7 +17,8 @@ function App() {
           <div className="nickname">
             <div className="id">
               <p className="nick">
-                Tasmetime <img src="" alt="" />
+                Tasmetime
+                <img src="assets/verify.png" alt="" className="verifyPic" />
               </p>
               <p>@tasmetime</p>
             </div>

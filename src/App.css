@@ -22,3 +22,10 @@ p {
   display: flex;
   justify-content: space-between;
 }
+.verifyPic {
+  width: 20px;
+  margin-left: 7px;
+}
+.nick {
+  display: flex;
+}
