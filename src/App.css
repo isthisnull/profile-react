@@ -1,0 +1,24 @@
+body,
+p {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.backpic {
+  position: relative;
+}
+.avatar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.username {
+  margin-top: 20px;
+}
+.nickname {
+  display: flex;
+  justify-content: space-between;
+}
