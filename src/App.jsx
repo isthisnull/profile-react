@@ -5,7 +5,7 @@ function App() {
     <>
       <div className="container">
         <div className="center">
-          <div className="left"></div>
+          <div className="left">abcddddd</div>
           <div className="right"></div>
         </div>
       </div>
