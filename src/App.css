@@ -1,57 +1,35 @@
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 0;
+  padding: 0;
   width: 100vw;
   height: 2000px;
-  margin: 0px;
-  padding: 0px;
-}
-p {
-  margin: 0px;
-  padding: 0px;
 }
 .container {
   display: flex;
-  flex-direction: column;
-}
-.backpic {
-  position: relative;
-  width: 1500px;
-  height: 270px;
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
-.bigPic {
-  min-width: 400px;
-  width: 1500px;
-  width: 100vw;
-  max-width: 1500px;
-  height: 270px;
-  object-fit: cover;
-}
-.avatar {
+.left {
+  background-color: red;
+  border: 1px solid black;
+  width: 200px;
+  height: 299px;
+  min-width: 200px;
   position: absolute;
   left: 0px;
-  bottom: -20px;
 }
-.avatarPic {
+.center {
+  position: relative;
+  width: 1500px;
+  max-width: 1500px;
+  background-color: blue;
+  border: 1px solid black;
+  height: 299px;
+}
+.right {
+  position: absolute;
   width: 200px;
-  border-radius: 400px;
-  border: 1px solid white;
-}
-.username {
-  margin-top: 20px;
-}
-.nickname {
-  display: flex;
-  justify-content: space-between;
-}
-.verifyPic {
-  width: 20px;
-  margin-left: 7px;
-}
-.nick {
-  display: flex;
+  background-color: rgb(0, 255, 0);
+  border: 1px solid black;
+  height: 299px;
+  right: 0px;
 }
