@@ -7,9 +7,9 @@ function App() {
         <div className="background">
           <p>Profile</p>
           <div className="backpic">
-            <img src="assets/back.webp" alt="kiri" />
+            <img src="assets/bbb.jpeg" alt="kiri" className="bigPic" />
             <div className="avatar">
-              <img src="assets/avata.webp" alt="koooooni" />
+              <img src="assets/dddd.jpg" alt="koooooni" className="avatarPic" />
             </div>
           </div>
         </div>
@@ -23,6 +23,9 @@ function App() {
               <p>@tasmetime</p>
             </div>
             <div className="buttons">
+              <button>
+                <img src="" alt="" />
+              </button>
               <button>
                 <img src="" alt="" />
               </button>

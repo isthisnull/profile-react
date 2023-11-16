@@ -1,4 +1,12 @@
-body,
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 2000px;
+  margin: 0px;
+  padding: 0px;
+}
 p {
   margin: 0px;
   padding: 0px;
@@ -9,11 +17,29 @@ p {
 }
 .backpic {
   position: relative;
+  width: 1500px;
+  height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bigPic {
+  min-width: 400px;
+  width: 1500px;
+  width: 100vw;
+  max-width: 1500px;
+  height: 270px;
+  object-fit: cover;
 }
 .avatar {
   position: absolute;
   left: 0px;
-  top: 0px;
+  bottom: -20px;
+}
+.avatarPic {
+  width: 200px;
+  border-radius: 400px;
+  border: 1px solid white;
 }
 .username {
   margin-top: 20px;
