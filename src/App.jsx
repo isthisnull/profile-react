@@ -4,16 +4,11 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className="pro">Profile</div>
+        <div className="left"></div>
         <div className="center">
-          <div className="centerContent">
-            <img src="assets/back.webp" alt="koooooni" className="backPic" />
-          </div>
-          <div className="left">
-            sss{/* <div className="pro">Profile</div> */}
-          </div>
-          <div className="right"></div>
+          <img src="assets/back.webp" alt="koooooni" className="backPic" />
         </div>
+        <div className="right"></div>
       </div>
     </>
   );
