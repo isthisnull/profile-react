@@ -28,11 +28,11 @@ body {
   min-height: 900px;
   height: 100dvw;
   align-items: start;
-  position: relative;
+  position: sticky;
   top: 0px;
-  left: 0px;
 }
 .center {
+  height: 2000px;
   width: 800px;
   background-color: brown;
 }
