@@ -2,12 +2,11 @@ body {
   margin: 0;
   padding: 0;
   height: 2000px;
-  max-width: 1500px;
   min-width: 700px;
-  width: 100dvw;
+  width: 100vw;
 }
 .containerC {
-  width: 100%;
+  max-width: 2000px;
   display: flex;
   justify-content: center;
 }
@@ -20,11 +19,6 @@ body {
   height: 100%;
   display: flex;
   justify-content: center;
-}
-.outerleft {
-  position: sticky;
-  height: 100dvw;
-  top: 0;
 }
 .left {
   background-color: aqua;
@@ -41,9 +35,6 @@ body {
 .center {
   width: 800px;
   background-color: brown;
-}
-.center p {
-  width: 100%;
 }
 .right {
   align-items: start;
