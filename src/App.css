@@ -13,34 +13,20 @@ body {
   background-color: rgba(207, 52, 52, 0.7);
   border: 1px solid black;
   width: 200px;
-  height: 100%;
+  height: 100dvh;
   min-width: 200px;
-  position: absolute;
-  left: 0px;
+  position: sticky;
+  /* align-items: start; */
   top: 0;
-  bottom: 0;
 }
 .center {
   display: flex;
-  position: relative;
   width: 1500px;
   min-width: 600px;
   max-width: 1500px;
-  height: 100%;
+  height: 100dvh;
 }
-.centerContent {
-  height: 270px;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-.pro {
-  left: 259px;
-  position: absolute;
-  font-size: 1.3rem;
-  font-weight: bold;
-}
+
 .backPic {
   margin-top: 40px;
   object-fit: cover;
@@ -48,36 +34,13 @@ body {
   height: 270px;
 }
 .right {
-  position: absolute;
+  position: sticky;
   width: 300px;
   background-color: rgb(0, 255, 0);
   border: 1px solid black;
-  height: 100%;
-  right: 0px;
+  height: 100dvh;
+
   top: 0px;
-  bottom: 0px;
+
   min-width: 200px;
-  flex-shrink: 5;
-}
-
-@media screen and (max-width: 1210px) {
-  .center {
-    max-width: 1300px;
-    min-width: 1100px;
-  }
-  .left {
-    position: fixed;
-    flex-shrink: 10;
-  }
-
-  .right {
-    position: absolute;
-    right: 0px;
-  }
-}
-@media screen and (max-width: 720px) {
-  .right {
-    position: fixed;
-    right: -200px;
-  }
 }
