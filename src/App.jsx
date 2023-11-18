@@ -24,45 +24,30 @@ function App() {
             <p>casdcsad</p>
           </div>
           <div className="center">
-            {/* <img src="assets/back.webp" alt="koooooni" className="backPic" /> */}
-
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
+            <div>
+              Connect a tezos wallet in your profile, then reply here to get a
+              free NFT!{" "}
+            </div>{" "}
+            <div>
+              Connect a tezos wallet in your profile, then reply here to get a
+              free NFT!{" "}
+            </div>{" "}
+            <div>
+              Connect a tezos wallet in your profile, then reply here to get a
+              free NFT!{" "}
+            </div>{" "}
+            <div>
+              Connect a tezos wallet in your profile, then reply here to get a
+              free NFT!{" "}
+            </div>{" "}
+            <div>
+              Connect a tezos wallet in your profile, then reply here to get a
+              free NFT!{" "}
+            </div>{" "}
+            <div>
+              Connect a tezos wallet in your profile, then reply here to get a
+              free NFT!{" "}
+            </div>
           </div>
           <div className="right">
             <p>fsadcsd</p>
