@@ -1,16 +1,16 @@
 /* import "./App.css"; */
-/* import "./index.css"; */
-import "./test.css";
+import "./index.css";
+/* import "./test.css"; */
 function App() {
   return (
     <>
-      <div className="nax">
+      {/*       <div className="nax">
         <button>a</button>
         <button>a</button>
         <button>a</button>
         <button>a</button>
         <button>a</button>
-      </div>
+      </div> */}
       <div className="containerC">
         <div className="container">
           <div className="left">

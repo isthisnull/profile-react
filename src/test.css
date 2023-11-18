@@ -1,18 +1,32 @@
 .left {
+  background-color: aqua;
+  min-width: 200px;
+  width: 200px;
+  max-width: 400px;
+
   position: sticky;
-  top: 0;
-  align-items: start;
-  height: 100dvh;
+  top: 0px;
 }
 .right {
   position: sticky;
   top: 0;
   align-items: start;
-  height: 100dvh;
+
+  background-color: aqua;
 }
 .container {
   display: flex;
+  justify-content: center;
+  min-width: 700px;
+  width: 1400px;
+  max-width: 1500px;
+  height: 100%;
+  align-items: start;
 }
 .containerC {
   display: flex;
+  max-width: 2000px;
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
