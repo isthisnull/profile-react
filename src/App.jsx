@@ -1,8 +1,16 @@
 /* import "./App.css"; */
-import "./index.css";
+/* import "./index.css"; */
+import "./test.css";
 function App() {
   return (
     <>
+      <div className="nax">
+        <button>a</button>
+        <button>a</button>
+        <button>a</button>
+        <button>a</button>
+        <button>a</button>
+      </div>
       <div className="containerC">
         <div className="container">
           <div className="left">

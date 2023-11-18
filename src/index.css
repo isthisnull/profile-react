@@ -5,10 +5,20 @@ body {
   min-width: 700px;
   width: 100vw;
 }
+.nax {
+  position: sticky;
+  top: 0;
+  background-color: darkred;
+  display: flex;
+  justify-content: space-between;
+  width: 1400px;
+}
 .containerC {
   max-width: 2000px;
   display: flex;
   justify-content: center;
+  height: 100%;
+  border: 1px solid teal;
 }
 .container {
   display: flex;
@@ -17,26 +27,29 @@ body {
   width: 1400px;
   max-width: 1500px;
   height: 100%;
-  display: flex;
-  justify-content: center;
 }
 .left {
   background-color: aqua;
   min-width: 200px;
   width: 200px;
   max-width: 400px;
-  min-height: 900px;
+  min-height: 1100px;
   height: 100dvw;
   align-items: start;
   position: sticky;
   top: 0px;
 }
 .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   height: 2000px;
   width: 800px;
   background-color: brown;
 }
 .right {
+  min-height: 1100px;
   align-items: start;
   height: 100dvw;
   width: 300px;
