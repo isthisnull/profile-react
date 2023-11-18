@@ -25,33 +25,7 @@ function App() {
           </div>
           <div className="center">
             {/* <img src="assets/back.webp" alt="koooooni" className="backPic" /> */}
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
-            <p>casdcsad</p>
-            <p>fsadcsd</p>
+
             <p>casdcsad</p>
             <p>fsadcsd</p>
             <p>casdcsad</p>
