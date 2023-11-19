@@ -24,30 +24,26 @@ function App() {
             <p>casdcsad</p>
           </div>
           <div className="center">
-            <div>
-              Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!
+            <div className="profile">Profile</div>
+            <div className="picCon">
+              <img src="assets\bbb.jpeg" alt="koooni" className="bigPic" />
+              <div className="avatar">
+                <img src="assets\dddd.jpg" alt="" className="smallPic" />
+              </div>
             </div>
-            <div>
-              Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!
+            <div className="idFlw">
+              <div className="nik"></div>
+              <div className="verify"></div>
+              <div className="buttons">
+                <button className="message"></button>
+                <button className="notif"></button>
+                <button className="flw"></button>
+              </div>
             </div>
-            <div>
-              Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!
-            </div>
-            <div>
-              Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!
-            </div>
-            <div>
-              Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!
-            </div>
-            <div>
-              Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!
-            </div>
+            <div className="id"></div>
+            <div className="joined"></div>
+            <div className="followers"></div>
+            <div className="content"></div>
           </div>
           <div className="right">
             <p>fsadcsd</p>
