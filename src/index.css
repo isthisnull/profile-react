@@ -2,8 +2,8 @@ body {
   margin: 0;
   padding: 0;
   height: 2000px;
-  min-width: 702px;
-  width: 100vw;
+  min-width: 102px;
+  width: 100dvw;
 }
 .nax {
   position: sticky;
@@ -14,7 +14,7 @@ body {
   width: 1400px;
 }
 .containerC {
-  min-width: 200px;
+  /*   min-width: 100px; */
   max-width: 100vw;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ body {
 .container {
   display: flex;
   justify-content: center;
-  min-width: 200px;
+  min-width: 10px;
   width: 1200px;
   max-width: 1500px;
   height: 100%;
@@ -46,9 +46,10 @@ body {
   align-items: start;
   height: 2000px;
   width: 1200px;
-  min-width: 200px;
+  min-width: 50px;
   background-color: brown;
 }
+
 .right {
   width: 300px;
   height: 100%;

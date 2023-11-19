@@ -26,27 +26,27 @@ function App() {
           <div className="center">
             <div>
               Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!{" "}
-            </div>{" "}
+              free NFT!
+            </div>
             <div>
               Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!{" "}
-            </div>{" "}
+              free NFT!
+            </div>
             <div>
               Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!{" "}
-            </div>{" "}
+              free NFT!
+            </div>
             <div>
               Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!{" "}
-            </div>{" "}
+              free NFT!
+            </div>
             <div>
               Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!{" "}
-            </div>{" "}
+              free NFT!
+            </div>
             <div>
               Connect a tezos wallet in your profile, then reply here to get a
-              free NFT!{" "}
+              free NFT!
             </div>
           </div>
           <div className="right">
