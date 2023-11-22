@@ -4,13 +4,6 @@ import "./index.css";
 function App() {
   return (
     <>
-      {/*       <div className="nax">
-        <button>a</button>
-        <button>a</button>
-        <button>a</button>
-        <button>a</button>
-        <button>a</button>
-      </div> */}
       <div className="containerC">
         <div className="container">
           <div className="left">
@@ -54,7 +47,15 @@ function App() {
               <div className="followers">Followers: 11</div>
               <div className="following">Following: 11</div>
             </div>
+            <div className="nax">
+              <button>kiram</button>
+              <button>to</button>
+              <button>in </button>
+              <button>page</button>
+              <button>hastesh</button>
+            </div>
           </div>
+
           <div className="right">
             <p>fsadcsd</p>
             <p>casdcsad</p>

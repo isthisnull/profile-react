@@ -11,7 +11,7 @@ body {
   background-color: darkred;
   display: flex;
   justify-content: space-between;
-  width: 1400px;
+  width: 100%;
 }
 .containerC {
   /*   min-width: 100px; */
