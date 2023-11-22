@@ -31,7 +31,7 @@ body {
   align-items: start;
 }
 .left {
-  min-width: 100px;
+  min-width: 200px;
   width: 200px;
   max-width: 400px;
   position: sticky;
@@ -59,6 +59,7 @@ body {
   top: 0;
   min-width: 10px;
   z-index: 102;
+  background-color: white;
 }
 
 .bigPic {
@@ -70,14 +71,22 @@ body {
 }
 .avatar {
   position: absolute;
-  top: 50px;
-  left: 0;
+  top: 190px;
+  left: 20px;
 }
 .smallPic {
-  width: 100px;
-  height: 100px;
+  width: 140px;
+  height: 140px;
   object-fit: cover;
-  border-radius: 50px;
+  border-radius: 70px;
+}
+.idFlw {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+}
+.verifyMark {
+  width: 50px;
 }
 /* @media screen and (max-width: 1000px) {
   .right {

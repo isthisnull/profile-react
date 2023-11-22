@@ -32,16 +32,18 @@ function App() {
               </div>
             </div>
             <div className="idFlw">
-              <div className="nik"></div>
-              <div className="verify"></div>
+              <div className="nik">Tasmetime</div>
+              <div className="verify">
+                <img src="assets\verify.png" className="verifyMark" />
+              </div>
               <div className="buttons">
                 <button className="message"></button>
                 <button className="notif"></button>
                 <button className="flw"></button>
               </div>
             </div>
-            <div className="id"></div>
-            <div className="joined"></div>
+            <div className="id">@tasmetime</div>
+            <div className="joined">Joined November 2023</div>
             <div className="followers"></div>
             <div className="content"></div>
           </div>
