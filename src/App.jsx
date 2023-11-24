@@ -6,7 +6,7 @@ import "./index.css";
 function App() {
   const [state, setState] = useState(true);
   const [show, setShow] = useState(true);
-  /* const handleClick = setState(() => state + 1); */
+  const [kir, setKir] = useState(true);
   return (
     <>
       <div className="containerC">
@@ -54,21 +54,41 @@ function App() {
             </div>
             <div className="nax">
               <button
-                onClick={() => setShow(!state, !show) && setState(!state)}
+                onClick={() => {
+                  setState(true);
+                  setShow(false);
+                  setKir(false);
+                }}
                 className="skurps"
               >
                 Skurps (6)
               </button>
               <button
-                onClick={() => setState(false) && setShow(true)}
+                onClick={() => {
+                  setState(false);
+                  setShow(true);
+                  setKir(false);
+                }}
                 className="created"
               >
                 Created(5)
               </button>
-              <button className="collected">Collected(3)</button>
+              <button
+                onClick={() => {
+                  setState(false);
+                  setShow(false);
+                  setKir(true);
+                }}
+                className="collected"
+              >
+                Collected(3)
+              </button>
             </div>
-            <div className="skurpsContent">{!state && <p>i am skurps</p>}</div>
-            <div className="createdContent">{!show && <p>i am created</p>}</div>
+            <div className="skurpsContent">{state && <p>i am skurps</p>}</div>
+            <div className="createdContent">{show && <p>i am created</p>}</div>
+            <div className="collectedContent">
+              {kir && <p>i am collected</p>}
+            </div>
           </div>
 
           <div className="right">
