@@ -5,13 +5,26 @@ body {
   min-width: 102px;
   width: 100dvw;
 }
+.nax p {
+  padding: 0;
+  margin: 0;
+}
 .nax {
   position: sticky;
   top: 0;
-  background-color: darkred;
+  border-bottom: 1px solid rgb(221, 221, 221);
   display: flex;
   justify-content: space-between;
   width: 100%;
+}
+.skurps,
+.created,
+.collected {
+  border-style: none;
+  background-color: white;
+  font-size: 1.4rem;
+  font-weight: 500;
+  padding: 18px 20px;
 }
 .containerC {
   /*   min-width: 100px; */

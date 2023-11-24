@@ -1,7 +1,10 @@
+import React, { useState } from "react";
 /* import "./App.css"; */
 import "./index.css";
 /* import "./test.css"; */
 function App() {
+  const [state, setState] = useState(true);
+  /* const handleClick = setState(() => state + 1); */
   return (
     <>
       <div className="containerC">
@@ -44,15 +47,19 @@ function App() {
             </div>
             <div className="followers"></div>
             <div className="content">
-              <div className="followers">Followers: 11</div>
+              <div className="followers">Followers: {state}</div>
               <div className="following">Following: 11</div>
             </div>
             <div className="nax">
-              <button>kiram</button>
-              <button>to</button>
-              <button>in </button>
-              <button>page</button>
-              <button>hastesh</button>
+              <button onClick={() => setState(!state)} className="skurps">
+                {!state && <p>Skurps (6)</p>}
+              </button>
+              <button onClick={() => setState(!state)} className="created">
+                {state && <p>Created(5)</p>}
+              </button>
+              <button onClick={() => setState(!state)} className="collected">
+                {!state && <p>Collected(3)</p>}
+              </button>
             </div>
           </div>
 
