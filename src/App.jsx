@@ -5,7 +5,7 @@ import "./index.css";
 /* import Changetab from "./Changetab"; */
 function App() {
   const [show, setShow] = useState(1);
-
+  const [follow, setFollow] = useState(true);
   return (
     <>
       <div className="containerC">
@@ -36,9 +36,20 @@ function App() {
                 </div>
               </div>
               <div className="buttons">
-                <button className="message"></button>
-                <button className="notif"></button>
-                <button className="flw">Follow</button>
+                <button
+                  className={follow ? "notifShow" : "dontShowContent"}
+                ></button>
+                <button
+                  className={follow ? "notifShow" : "dontShowContent"}
+                ></button>
+                <button
+                  className={follow ? "unFollow" : "flw"}
+                  onClick={() => {
+                    setFollow(!follow);
+                  }}
+                >
+                  Follow
+                </button>
               </div>
             </div>
             <div className="id">@tasmetime</div>
@@ -78,12 +89,6 @@ function App() {
               </button>
             </div>
             <div className={show === 1 ? "showContent" : "dontShowContent"}>
-              i am skurps
-            </div>
-            <div className={show === 2 ? "showContent" : "dontShowContent"}>
-              i am created
-            </div>
-            <div className={show === 3 ? "showContent" : "dontShowContent"}>
               <div className="info">
                 <div>
                   <img src="assets/dddd.jpg" alt="" className="smallPic" />
@@ -93,6 +98,12 @@ function App() {
                   <div>@tasmetime</div>
                 </div>
               </div>
+            </div>
+            <div className={show === 2 ? "showContent" : "dontShowContent"}>
+              i am created
+            </div>
+            <div className={show === 3 ? "showContent" : "dontShowContent"}>
+              i am collected
             </div>
           </div>
           <div className="right">

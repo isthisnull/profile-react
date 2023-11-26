@@ -161,7 +161,24 @@ body {
 .dontShowContent {
   display: none;
 }
-
+.buttons {
+  margin-right: 10px;
+}
+.unFollow {
+}
+.flw {
+  color: white;
+  border-style: none;
+  background-color: rgb(68, 26, 83);
+  padding: 10px 35px;
+  border-radius: 10px;
+}
+.notifShow {
+  display: inline;
+}
+.messageShow {
+  display: inline;
+}
 /* @media screen and (max-width: 1000px) {
   .right {
     position: relative;
