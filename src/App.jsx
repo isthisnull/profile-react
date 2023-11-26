@@ -87,7 +87,17 @@ function App() {
             <div className="skurpsContent">{state && <p>i am skurps</p>}</div>
             <div className="createdContent">{show && <p>i am created</p>}</div>
             <div className="collectedContent">
-              {kir && <p>i am collected</p>}
+              {kir && (
+                <div className="info">
+                  <div>
+                    <img src="assets/dddd.jpg" alt="" className="smallPic" />
+                  </div>
+                  <div>
+                    <div>Tasmetime</div>
+                    <div>@tasmetime</div>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
 
