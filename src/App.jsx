@@ -36,19 +36,19 @@ function App() {
                 </div>
               </div>
               <div className="buttons">
-                <button
-                  className={follow ? "notifShow" : "dontShowContent"}
-                ></button>
-                <button
-                  className={follow ? "notifShow" : "dontShowContent"}
-                ></button>
+                <button className={follow ? "messageShow" : "dontShowContent"}>
+                  <img src="assets/email(1).png" className="messageIcon" />
+                </button>
+                <button className={follow ? "notifShow" : "dontShowContent"}>
+                  <img src="" className="" />
+                </button>
                 <button
                   className={follow ? "unFollow" : "flw"}
                   onClick={() => {
                     setFollow(!follow);
                   }}
                 >
-                  Follow
+                  {follow ? "Following" : "Follow"}
                 </button>
               </div>
             </div>

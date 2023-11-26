@@ -163,8 +163,15 @@ body {
 }
 .buttons {
   margin-right: 10px;
+  display: flex;
+  align-items: center;
 }
 .unFollow {
+  color: rgb(68, 26, 83);
+  border: 1px solid rgb(68, 26, 83);
+  background-color: rgb(255, 255, 255);
+  padding: 10px 25px;
+  border-radius: 10px;
 }
 .flw {
   color: white;
@@ -178,6 +185,12 @@ body {
 }
 .messageShow {
   display: inline;
+  background-color: transparent;
+  border-style: none;
+}
+.messageIcon {
+  width: 40px;
+  height: 40px;
 }
 /* @media screen and (max-width: 1000px) {
   .right {
