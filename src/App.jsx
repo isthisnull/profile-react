@@ -4,9 +4,8 @@ import "./index.css";
 /* import "./test.css"; */
 /* import Changetab from "./Changetab"; */
 function App() {
-  const [state, setState] = useState(true);
-  const [show, setShow] = useState(true);
-  const [kir, setKir] = useState(true);
+  const [show, setShow] = useState(1);
+
   return (
     <>
       <div className="containerC">
@@ -55,9 +54,7 @@ function App() {
             <div className="nax">
               <button
                 onClick={() => {
-                  setState(true);
-                  setShow(false);
-                  setKir(false);
+                  setShow(1);
                 }}
                 className="skurps"
               >
@@ -65,9 +62,7 @@ function App() {
               </button>
               <button
                 onClick={() => {
-                  setState(false);
-                  setShow(true);
-                  setKir(false);
+                  setShow(2);
                 }}
                 className="created"
               >
@@ -75,32 +70,31 @@ function App() {
               </button>
               <button
                 onClick={() => {
-                  setState(false);
-                  setShow(false);
-                  setKir(true);
+                  setShow(3);
                 }}
                 className="collected"
               >
                 Collected(3)
               </button>
             </div>
-            <div className="skurpsContent">{state && <p>i am skurps</p>}</div>
-            <div className="createdContent">{show && <p>i am created</p>}</div>
-            <div className="collectedContent">
-              {kir && (
-                <div className="info">
-                  <div>
-                    <img src="assets/dddd.jpg" alt="" className="smallPic" />
-                  </div>
-                  <div>
-                    <div>Tasmetime</div>
-                    <div>@tasmetime</div>
-                  </div>
+            <div className={show === 1 ? "showContent" : "notShowContent"}>
+              i am skurps
+            </div>
+            <div className={show === 2 ? "showContent" : "notShowContent"}>
+              i am created
+            </div>
+            <div className={show === 3 ? "showContent" : "notShowContent"}>
+              <div className="info">
+                <div>
+                  <img src="assets/dddd.jpg" alt="" className="smallPic" />
                 </div>
-              )}
+                <div>
+                  <div>Tasmetime</div>
+                  <div>@tasmetime</div>
+                </div>
+              </div>
             </div>
           </div>
-
           <div className="right">
             <p>fsadcsd</p>
             <p>casdcsad</p>
