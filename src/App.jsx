@@ -6,6 +6,12 @@ import "./index.css";
 function App() {
   const [show, setShow] = useState(1);
   const [follow, setFollow] = useState(true);
+  /*   function hover(e) {
+    e.setAttribute("src", "assets/email(1).png");
+  }
+  function unhover(e) {
+    e.setAttribute("src", "assets/email(3).png");
+  } */
   return (
     <>
       <div className="containerC">
@@ -37,10 +43,16 @@ function App() {
               </div>
               <div className="buttons">
                 <button className={follow ? "messageShow" : "dontShowContent"}>
-                  <img src="assets/email(1).png" className="messageIcon" />
+                  <img
+                    /* onMouseOut={unhover(this)}
+                    onMouseOver={hover(this)} */
+                    src="assets/email(3).png"
+                    className="messageIcon"
+                  />
+                  <img src="assets/email(3).png" className="messageIcon" />
                 </button>
                 <button className={follow ? "notifShow" : "dontShowContent"}>
-                  <img src="" className="" />
+                  <img src="assets/email(1).png" className="messageIcon" />
                 </button>
                 <button
                   className={follow ? "unFollow" : "flw"}
@@ -96,6 +108,7 @@ function App() {
                 <div>
                   <div>Tasmetime</div>
                   <div>@tasmetime</div>
+                  <div className="testimg">s</div>
                 </div>
               </div>
             </div>

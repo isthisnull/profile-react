@@ -182,15 +182,29 @@ body {
 }
 .notifShow {
   display: inline;
-}
-.messageShow {
-  display: inline;
   background-color: transparent;
   border-style: none;
 }
+.messageShow {
+  /* display: block; */
+  background-color: transparent;
+  border-style: none;
+}
+/* .messageShow:hover {
+  background: url("assets/email(3).png");
+} */
 .messageIcon {
   width: 40px;
   height: 40px;
+}
+.testimg {
+  height: 512px;
+  width: 512px;
+  object-fit: cover;
+  background: url("assets/email(1).png");
+}
+.testimg:hover {
+  background: url("assets/email(3).png");
 }
 /* @media screen and (max-width: 1000px) {
   .right {
