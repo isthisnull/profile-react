@@ -77,13 +77,13 @@ function App() {
                 Collected(3)
               </button>
             </div>
-            <div className={show === 1 ? "showContent" : "notShowContent"}>
+            <div className={show === 1 ? "showContent" : "dontShowContent"}>
               i am skurps
             </div>
-            <div className={show === 2 ? "showContent" : "notShowContent"}>
+            <div className={show === 2 ? "showContent" : "dontShowContent"}>
               i am created
             </div>
-            <div className={show === 3 ? "showContent" : "notShowContent"}>
+            <div className={show === 3 ? "showContent" : "dontShowContent"}>
               <div className="info">
                 <div>
                   <img src="assets/dddd.jpg" alt="" className="smallPic" />
