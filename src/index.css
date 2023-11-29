@@ -186,25 +186,38 @@ body {
   border-style: none;
 }
 .messageShow {
-  /* display: block; */
+  height: 40px;
+  width: 40px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("assets/email(3).png");
+
   background-color: transparent;
   border-style: none;
 }
-/* .messageShow:hover {
-  background: url("assets/email(3).png");
-} */
+.messageShow:hover {
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("assets/email(1).png");
+}
 .messageIcon {
   width: 40px;
   height: 40px;
 }
 .testimg {
-  height: 512px;
-  width: 512px;
-  object-fit: cover;
-  background: url("assets/email(1).png");
+  height: 300px;
+  width: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("assets/email(1).png");
 }
 .testimg:hover {
   background: url("assets/email(3).png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 /* @media screen and (max-width: 1000px) {
   .right {

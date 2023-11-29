@@ -2,7 +2,7 @@ import React, { useState } from "react";
 /* import "./App.css"; */
 import "./index.css";
 /* import "./test.css"; */
-/* import Changetab from "./Changetab"; */
+
 function App() {
   const [show, setShow] = useState(1);
   const [follow, setFollow] = useState(true);
@@ -44,12 +44,11 @@ function App() {
               <div className="buttons">
                 <button className={follow ? "messageShow" : "dontShowContent"}>
                   <img
-                    /* onMouseOut={unhover(this)}
+                  /* onMouseOut={unhover(this)}
                     onMouseOver={hover(this)} */
-                    src="assets/email(3).png"
-                    className="messageIcon"
+                  /* src="assets/email(3).png"
+                    className="messageIcon" */
                   />
-                  <img src="assets/email(3).png" className="messageIcon" />
                 </button>
                 <button className={follow ? "notifShow" : "dontShowContent"}>
                   <img src="assets/email(1).png" className="messageIcon" />
@@ -108,7 +107,7 @@ function App() {
                 <div>
                   <div>Tasmetime</div>
                   <div>@tasmetime</div>
-                  <div className="testimg">s</div>
+                  <div className="testimg"></div>
                 </div>
               </div>
             </div>
