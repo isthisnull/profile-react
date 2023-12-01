@@ -1,17 +1,15 @@
 import React, { useState } from "react";
-/* import "./App.css"; */
+
 import "./index.css";
-/* import "./test.css"; */
 
 function App() {
   const [show, setShow] = useState(1);
-  const [follow, setFollow] = useState(true);
-  /*   function hover(e) {
-    e.setAttribute("src", "assets/email(1).png");
-  }
-  function unhover(e) {
-    e.setAttribute("src", "assets/email(3).png");
-  } */
+  const [follow, setFollow] = useState(false);
+  const kosKesh = () => {
+    alert("kiri");
+    setFollow(!follow);
+  };
+  const nikname = "@tasmetime";
   return (
     <>
       <div className="containerC">
@@ -42,22 +40,15 @@ function App() {
                 </div>
               </div>
               <div className="buttons">
-                <button className={follow ? "messageShow" : "dontShowContent"}>
-                  <img
-                  /* onMouseOut={unhover(this)}
-                    onMouseOver={hover(this)} */
-                  /* src="assets/email(3).png"
-                    className="messageIcon" */
-                  />
-                </button>
+                <button
+                  className={follow ? "messageShow" : "dontShowContent"}
+                ></button>
                 <button
                   className={follow ? "notifShow" : "dontShowContent"}
                 ></button>
                 <button
                   className={follow ? "unFollow" : "flw"}
-                  onClick={() => {
-                    setFollow(!follow);
-                  }}
+                  onClick={() => (follow ? kosKesh() : setFollow(!follow))}
                 >
                   {follow ? "Following" : "Follow"}
                 </button>
@@ -127,6 +118,22 @@ function App() {
             <p>casdcsad</p>
             <p>fsadcsd</p>
             <p>casdcsad</p>
+          </div>
+          <div className="unflwConfirm">
+            <div className="background"></div>
+            <div className="msgText">
+              <div>
+                <p>Unfollow</p>
+                <img src="" alt="" />
+              </div>
+              <p>{nikname}</p>
+              <p>
+                You won't see their skurpy on your home timeline anymore, but
+                you can still access their profile.
+              </p>
+              <button>Unfollow</button>
+              <button>Cancel</button>
+            </div>
           </div>
         </div>
       </div>

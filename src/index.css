@@ -226,6 +226,27 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
+.unflwConfirm {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  right: 50%;
+  bottom: 50%;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 400px;
+  height: 400px;
+  z-index: 3333;
+}
+.background {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  filter: blur(9px);
+  -webkit-filter: blur(8px);
+}
 /* @media screen and (max-width: 1000px) {
   .right {
     position: relative;
