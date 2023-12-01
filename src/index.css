@@ -228,6 +228,10 @@ body {
 }
 .unflwConfirm {
   position: fixed;
+  z-index: 3333;
+}
+.msgText {
+  position: fixed;
   left: 50%;
   top: 50%;
   right: 50%;
@@ -236,7 +240,6 @@ body {
   color: black;
   width: 400px;
   height: 400px;
-  z-index: 3333;
 }
 .background {
   position: fixed;
