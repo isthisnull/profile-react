@@ -50,9 +50,9 @@ function App() {
                     className="messageIcon" */
                   />
                 </button>
-                <button className={follow ? "notifShow" : "dontShowContent"}>
-                  <img src="assets/email(1).png" className="messageIcon" />
-                </button>
+                <button
+                  className={follow ? "notifShow" : "dontShowContent"}
+                ></button>
                 <button
                   className={follow ? "unFollow" : "flw"}
                   onClick={() => {

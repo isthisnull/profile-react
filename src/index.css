@@ -181,18 +181,25 @@ body {
   border-radius: 10px;
 }
 .notifShow {
-  display: inline;
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url("assets/email(1).png");
   background-color: transparent;
   border-style: none;
+}
+.notifShow:hover {
+  background-image: url("assets/email(3).png");
 }
 .messageShow {
   height: 40px;
   width: 40px;
-
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("assets/email(3).png");
-
   background-color: transparent;
   border-style: none;
 }
