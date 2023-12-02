@@ -5,8 +5,12 @@ import "./index.css";
 function App() {
   const [show, setShow] = useState(1);
   const [follow, setFollow] = useState(false);
+  const [mamad, setMamad] = useState(false);
   const kosKesh = () => {
-    alert("kiri");
+    setMamad(!mamad);
+  };
+  const kiri = () => {
+    setMamad(!mamad);
     setFollow(!follow);
   };
   const nikname = "@tasmetime";
@@ -119,10 +123,10 @@ function App() {
             <p>fsadcsd</p>
             <p>casdcsad</p>
           </div>
-          <div className="unflwConfirm">
+          <div className={mamad ? "unflwConfirmDontShow" : "unflwConfirm"}>
             <div className="background"></div>
             <div className="msgText">
-              <div>
+              <div className="unfollowQ">
                 <p>Unfollow</p>
                 <img src="" alt="" />
               </div>
@@ -131,8 +135,12 @@ function App() {
                 You won't see their skurpy on your home timeline anymore, but
                 you can still access their profile.
               </p>
-              <button>Unfollow</button>
-              <button>Cancel</button>
+              <div className="butons">
+                <button onClick={() => kiri()} className="unFollowbtn">
+                  Unfollow
+                </button>
+                <button className="cancle">Cancle</button>
+              </div>
             </div>
           </div>
         </div>

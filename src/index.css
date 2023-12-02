@@ -229,27 +229,50 @@ body {
 .unflwConfirm {
   position: fixed;
   z-index: 3333;
-}
-.msgText {
-  position: fixed;
-  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   top: 50%;
-  right: 50%;
-  bottom: 50%;
-  background-color: rgb(255, 255, 255);
-  color: black;
-  width: 400px;
-  height: 400px;
+}
+.unflwConfirmDontShow {
+  display: none;
 }
 .background {
+  background-color: rgba(224, 161, 161, 0.5);
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   bottom: 0;
-  filter: blur(9px);
-  -webkit-filter: blur(8px);
+  /*   filter: blur(9px);
+  -webkit-filter: blur(8px); */
 }
+.msgText {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  width: 240px;
+  height: 240px;
+  padding: 25px 20px;
+  border-radius: 10px;
+}
+/* .msgText p {
+  padding: 0;
+  margin: 0;
+} */
+.butons {
+  display: flex;
+  flex-direction: column;
+}
+.unFollowbtn {
+  margin-bottom: 7px;
+}
+.unfollowQ {
+  display: flex;
+}
+
 /* @media screen and (max-width: 1000px) {
   .right {
     position: relative;
