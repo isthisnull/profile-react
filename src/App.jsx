@@ -5,7 +5,7 @@ import "./index.css";
 function App() {
   const [show, setShow] = useState(1);
   const [follow, setFollow] = useState(false);
-  const [mamad, setMamad] = useState(false);
+  const [mamad, setMamad] = useState(true);
   const kosKesh = () => {
     setMamad(!mamad);
   };
