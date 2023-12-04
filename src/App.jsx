@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import "./index.css";
+import FetchApi from "./fetchApi";
 
 function App() {
   const [show, setShow] = useState(1);
@@ -16,7 +17,7 @@ function App() {
   const nikname = "@tasmetime";
   return (
     <>
-      <div className="containerC">
+      {/*<div className="containerC">
         <div className="container">
           <div className="left">
             <p>fsadcdscsdcsdcccsd</p>
@@ -144,7 +145,8 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <FetchApi />
     </>
   );
 }
