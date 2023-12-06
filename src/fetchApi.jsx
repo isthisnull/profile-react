@@ -1,25 +1,37 @@
 import React, { useState, useEffect } from "react";
-
+import "./test.css";
 function FetchApi() {
   const [data, setData] = useState([]);
+  const [message, setMessage] = useState();
+  const [status, setStatus] = useState();
+  const URL = "https://jsonplaceholder.typicode.com/posts/3";
   const getApi = () => {
-    const URL = "https://jsonplaceholder.typicode.com/posts";
-    fetch(URL)
+    fetch(URL, { method: "DELETE" })
+      .then(() => setStatus("Delete successful"))
       .then((Response) => Response.json())
+      .then((kon) => setMessage(kon));
+
+    /* .then((Response) => Response.json())
       .then((kiri) => {
         console.log(kiri);
         setData(kiri);
-      });
+      }); */
   };
-  useEffect(() => {
-    getApi();
-  }, []);
+
+  /*   useEffect(() => {
+    async function deletePost() {
+      await fetch(URL, { method: "DELETE" });
+      setStatus("ok");
+    }
+    deletePost();
+  }, []); */
   return (
     <>
       API
-      {/* {JSON.stringify(data, null, 1)} */}
-      <button onClick={getApi}>api o kir</button>
-      <div>
+      {JSON.stringify(status, null, 4)}
+      {JSON.stringify(message, null, 4)}
+      <button onClick={getApi}>get api</button>
+      {/*       <div>
         <ul>
           {data.map((item) => (
             <li key={item.id}>
@@ -27,7 +39,7 @@ function FetchApi() {
             </li>
           ))}
         </ul>
-      </div>
+      </div> */}
     </>
   );
 }
